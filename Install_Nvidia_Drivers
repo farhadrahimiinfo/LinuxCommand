@@ -28,6 +28,7 @@ sudo apt install [driver_model_name]
 
 sudo reboot
 
+
 #-----------------------------------
 3. Install Nvidia Driver Using GUI
 #Open Software and Updates From the App Menu and select the Software and Updates app.
@@ -35,6 +36,11 @@ sudo reboot
 #From the list, select the latest Nvidia driver labeled proprietary, tested.
 #Click Apply Changes.
 #Restart your Ubuntu.
+
+#---------------------
+#4.or user link this url 
+#https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#driver-installation
+
 
 
 
