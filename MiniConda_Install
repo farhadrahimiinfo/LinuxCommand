@@ -1,0 +1,21 @@
+#How to Install Miniconda on Ubuntu
+sudo apt update
+sudo apt upgrade
+
+#Download Miniconda
+curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o Miniconda3-latest-Linux-x86_64.sh
+
+chmod +x Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+export PATH=$PATH:/home/cyberithub/miniconda3/bin
+echo $PATH
+conda --version
+conda install boto3
+conda -h
+
+
+conda create -n CondaName
+conda env list
+conda activate CondaName
+
+
