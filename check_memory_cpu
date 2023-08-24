@@ -1,0 +1,7 @@
+#How to check memory size in Linux
+free -ght
+less /proc/meminfo
+
+#How to check cpu in Linux
+
+lscpu
