@@ -1,6 +1,8 @@
 #How to check memory size in Linux
 free -ght
 less /proc/meminfo
+#we recommend using the -g, -h, and -t options
+
 
 #How to check cpu in Linux
 
