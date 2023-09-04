@@ -1,0 +1,26 @@
+#Installation of screen command: To install the screen command simply go to the terminal and type the following command:
+sudo apt install screen
+
+#screen: It will start a new window within the screen.
+screen
+
+#-S: It will start a new window within the screen and also gives a name to the window. It creates a session which is identified by that name. The name can be used to reattach screen at a later stage.
+screen -S file
+
+#-ls: It is used to display the currently opened screens including those running in the background. It will list all the attached as well as detached screen sessions.
+screen -ls
+
+
+#-d: It is used to detach a screen session so that it can be reattached in future. It can also be done with the help of shortcut key Ctrl-a + d
+screen -d 1643
+
+
+#-r: It is used to reattach a screen session which was detached in past.
+
+screen -r 1643
+#To check for the manual page of screen command, use the following command:
+man screen
+
+
+#To check the help page of screen command, use the following command:
+screen --help
