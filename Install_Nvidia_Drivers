@@ -1,5 +1,21 @@
 #How To Install Nvidia Drivers On Ubuntu
+Install Nvidia Drivers via PPA Repository
+At first, run the following command to add the Nvidia drivers repository:
 
+sudo add-apt-repository ppa:graphics-drivers/ppa
+
+Now, run the following command to identify the NVidia GPU model you are using.
+
+ubuntu-drivers devices
+Now, run the following command with your Nvidia GPU model to install the Nvidia driver on Ubuntu 22.04 LTS.
+
+sudo apt install [driver_model_name]
+or, run the following command to install the Nvidia driver automatically.
+
+sudo ubuntu-drivers autoinstall
+
+
+OR use this help
 
 #1.Install Nvidia Drivers via PPA Repository
 #At first, run the following command to add the Nvidia drivers repository
